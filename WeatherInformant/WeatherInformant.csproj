@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TrackerAdapter.cs~RF3cae6e7.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherStation\WeatherStation.csproj" />
+    <ProjectReference Include="..\WeatherTracker\WeatherTracker.csproj" />
+  </ItemGroup>
+
+</Project>
